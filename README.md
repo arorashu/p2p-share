@@ -7,8 +7,8 @@ A tiny web application to allow sending and receiving files directly in the brow
 To run project
 
 ```
-    npm install
-    npm start
+npm install
+npm start
 ```
 
 
