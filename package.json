@@ -1,5 +1,5 @@
 {
-  "name": "dat-file-share",
+  "name": "p2p-share",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
