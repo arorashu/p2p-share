@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 // import SDK from "dat-sdk";
 
-function App() {
+function DatApp() {
 
     return (
         <div className="App">
@@ -134,4 +134,4 @@ function toBase64(file) {
 
 // }
 
-export default App;
+export default DatApp;

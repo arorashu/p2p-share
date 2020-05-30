@@ -1,14 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import DatApp from './DatApp';
+import IPFSApp from "./IPFSApp";
 import * as serviceWorker from './serviceWorker';
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <DatApp />
+//   </React.StrictMode>,
+//   document.getElementById('dat-root')
+// );
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <IPFSApp />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('ipfs-root')
 );
 
 // If you want your app to work offline and load faster, you can change
