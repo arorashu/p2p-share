@@ -13,6 +13,8 @@
 
 ### 1. Content addressing
 
+Content-addressed storage
+
 I can host files, and they are made available to anyone, by addressing it through the public gateways. Previously, if I wanted to host files, I would have to create a server with a static IP. Probably then link that with a DNS. With a server came the responsibility of managing that server, in terms of security, etc. Now, IPFS provides me with an abstraction that does all that.
 
 Essentially, IPFS gives an abstraction that anybody can act as a server. As a consequence, the network is now optimised to deliver content directly from peer to peer. 
@@ -39,9 +41,26 @@ I think the client server model is very efficient in terms of CPU, memory utiliz
 
 This model though, probably does not make the network use efficient. Networks make platforms. Network and data affinity are the problems todays internet faces. THen again, what is the problem you are trying to solve?
 
+2. Decouples contents (data) you want, from the way to get it. 
+
+## Summary
+
+Essentially, IPFS is no silver bullet. It is a tool to enable people to distribute applications. Developers own the network.
+Using the IPFS network, I can choose to share my data with anyone, peer to peer, without relying on a central 3rd party or service.
+
+## Open Questions (to which I don't know the answer to?)
+
+1) What about compute? How do you think about compute heavy applications with p2p? Like machine learning.
+
+## To look into more
+
+1) Filecoin
+
+Essentially, how I can share part of my storage (or pay money), to get a backup of my data, for redundancy, and maybe availability. Storj does that too.
 
 
 
 
 ## Refrences
 1. https://ipfs.io/#how
+2. Edgar Lee of Netflix - https://www.youtube.com/watch?v=wNfk05D887M&list=PLuhRWgmPaHtTwwGv30nKdhr3GiIAnhbyE&index=2
